@@ -1080,7 +1080,7 @@ class Bar(_BaseTraceType):
     # name
     # ----
     @property
-    def name(self):
+    def name(self)->str:
         """
         Sets the trace name. The trace name appears as the legend item
         and on hover.
